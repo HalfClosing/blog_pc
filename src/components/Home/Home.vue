@@ -82,7 +82,7 @@ export default {
                   }
                 })
                 .catch((error) => {
-                  console.log(error);
+                  
                 });
             }
           },
@@ -131,7 +131,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     initBlockData() {
@@ -143,7 +143,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     }
   },

@@ -121,7 +121,7 @@ export default {
           this.total = res.total;
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     changePage(page) {
@@ -161,7 +161,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     loadAnimation() {

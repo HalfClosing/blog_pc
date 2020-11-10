@@ -122,7 +122,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     initArticleTree() {
@@ -146,7 +146,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     initTagsData() {
@@ -158,7 +158,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     submitArticle() {

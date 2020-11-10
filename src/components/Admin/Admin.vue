@@ -58,7 +58,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     login(e) {
@@ -77,7 +77,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     }
   }

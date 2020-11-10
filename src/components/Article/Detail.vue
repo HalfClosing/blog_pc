@@ -76,7 +76,7 @@ export default {
         }
       })
       .catch((error) => {
-        console.log(error);
+        
       });
   },
   deactivated() { // keep-alive 组件停用时调用
@@ -92,7 +92,7 @@ export default {
           }
         })
         .catch((error) => {
-          console.log(error);
+          
         });
     },
     emptyArticleData() {
