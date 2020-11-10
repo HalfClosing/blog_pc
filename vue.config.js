@@ -1,11 +1,7 @@
 module.exports = {
-  indexPath: process.env.NODE_ENV === 'production'
-      ? '../../resources/views/index.blade.php'
-      : './public/index.html',
+  indexPath: './public/index.html',
   outputDir: '../public/dist',
-  publicPath: process.env.NODE_ENV === 'production'
-      ? '/dist/'
-      : '/',
+  publicPath: '/',
   devServer: {
     proxy: {
       // 配置跨域
