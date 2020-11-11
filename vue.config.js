@@ -1,7 +1,5 @@
 module.exports = {
-  indexPath: './public/index.html',
-  outputDir: '../public/dist',
-  publicPath: '/',
+  lintOnSave: false,
   devServer: {
     proxy: {
       // 配置跨域
@@ -22,8 +20,5 @@ module.exports = {
         }
       }
     }
-  },
-  configureWebpack: {
-    watch: true
   }
 };
