@@ -6,7 +6,7 @@
     <div class="footer-container" v-if="!isHideFooter">
       <el-divider></el-divider>
       <div class="intro">
-        Welcome to HalfClosing Blog !
+        蜀ICP备2020033543号
       </div>
       <div class="copyright">
         Copyright © 2019 HalfClosing Blog. All Rights Reserved.
